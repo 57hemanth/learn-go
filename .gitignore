@@ -1,0 +1,31 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Executable files (compiled binaries without extension)
+# Ignore common executable names in subdirectories
+**/main
+**/app
+**/server
+**/client
+
+# Or ignore all files without extension in directories containing .go files
+# This is more aggressive but catches all executables
+# Uncomment if you want to ignore all executables:
+# **/*
+
+.DS_Store
+
+
